@@ -2,7 +2,7 @@
 
 ## ABOUT APPLICATION
 
-The Desktop app contains following features.
+The Desktop app contains following features. <br>
 -Secure login.
 -Add, delete and reload data.
 -Searching based on AI
