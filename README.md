@@ -13,4 +13,5 @@ PyQT5 has been used for the UI whereas we used sklearn for the implementation of
 ## CREDENTIALS
 
 User-name: admin
+
 Password: admin321
