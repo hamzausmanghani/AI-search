@@ -1,4 +1,6 @@
-# ABOUT APPLICATION
+# AI SEARCH
+
+## ABOUT APPLICATION
 
 The Desktop app contains following features.
 -Secure login.
