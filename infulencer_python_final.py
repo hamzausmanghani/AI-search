@@ -7,6 +7,10 @@ import sys
 import pandas as pd
 import sqlite3 as sql
 import sklearn
+import time
+from PyQt5 import QtCore, QtGui, QtWidgets
+import sys
+from PyQt5 import QtCore, QtGui, QtWidgets
 from sklearn.neighbors import KNeighborsClassifier
 
 conn=sql.connect('Influencer.db')
@@ -121,19 +125,12 @@ class login(object):
         _translate = QtCore.QCoreApplication.translate
         print(self.username_input.text())
         print(self.password_input.text())
-#         if self.username_input.text()=="admin" and self.password_input.text()=="admin321":
-        if True:
-            print("Succesfully logged in")
+        if self.username_input.text()=="admin" and self.password_input.text()=="admin321":
             self.main_window = QtWidgets.QMainWindow()
             self.ui = view_window()
             self.ui.setupUi(self.main_window)
-    #         self.add_data_window.setEnabled(True)
-    #         MainWindow.setEnabled(True)
             self.main_window.show()
             MainWindow.close()
-
-            
-        
             #redirection to new window
         elif self.username_input.text()=="" and self.password_input.text()=="":
             print("Please Enter username and password")
@@ -442,9 +439,7 @@ class search(object):
 
 
 #add info
-from PyQt5 import QtCore, QtGui, QtWidgets
-import sys
-from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 
 class add_info(object):
@@ -593,7 +588,7 @@ class add_info(object):
 
 
 
-import time
+
 class view_window(object):
     
     def __init__(self):
