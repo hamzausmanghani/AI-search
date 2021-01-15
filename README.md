@@ -15,6 +15,6 @@ PyQT5 has been used for the UI whereas we used sklearn for the implementation of
 User-name: admin <br>
 Password: admin321
 
-##RUNNING VIDEO
+## RUNNING VIDEO
 
 https://youtu.be/i04cU98Xxyk
